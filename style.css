@@ -1,0 +1,171 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f1f1f1;
+}
+
+h2 {
+    font-family: "Century Gothic", Arial, sans-serif;
+    font-size: 8.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 6rem;
+    background: linear-gradient(to bottom, blueviolet, #00B9FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    cursor: pointer;
+}
+
+.container1 {
+    height: 100vh;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.item1 {
+    font-size: 5rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, blueviolet, #00B9FF);
+    border: 0px solid blueviolet;
+    border-radius: 15px;
+}
+
+.container2 {
+    height: 100vh;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.item2 {
+    font-size: 5rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, blueviolet,  #E58331);
+    border: 0px solid blueviolet;
+    border-radius: 15px;
+}
+
+.cowboy2 {
+    background: linear-gradient(to bottom, blueviolet,  #00B9FF);
+    grid-column: span 2;
+}
+
+.astronaut2 {
+    background: linear-gradient(to bottom, #03989E, #00B9FF);
+    order: 1;
+    grid-column: span 2;
+
+    /*    
+    
+    or 
+    background-color: #03989E;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    or
+
+    grid-area: 2 / 1 / 3 / 3;
+    
+    */
+}
+
+.container3 {
+    height: 100vh;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.item3 {
+    font-size: 5rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, blueviolet,  #E58331);
+    border: 0px solid blueviolet;
+    border-radius: 15px;
+}
+
+.cowboy3 {
+    grid-column: span 2;
+}
+
+.astronaut3 {
+    order: 1;
+    grid-area: 2 / 1 / 3 / 3;
+}
+
+.book3 {
+    grid-row: span 2;
+    /* 
+    or
+    grid-area: 1 / 3 / -1 / -1
+    */
+}
+
+.container4 {
+    height: 100vh;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.item4 {
+    font-size: 5rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #03989E, #00B9FF);
+    border: 0px solid blueviolet;
+    border-radius: 15px;
+}
+
+.cowboy4 {
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+.astronaut4 {  
+    grid-area: 2 / 1 / 3 / 3;
+}
+
+.book4 {
+    background: linear-gradient(to bottom, blueviolet, #00B9FF80);
+    /* about the color #00B9FF80
+    code #E58331 is the color code
+    and the 80 in the end is the
+    opacity  */
+    grid-area: 1 / 2 / 3 / 4;
+}
+
+
